@@ -14,4 +14,4 @@ Route::get('/', function () {
 Route::get('/login', action:Login::class)->name('login');
 
 // Route::get('/', action: Master::class);
-Route::get('/mahasiswa/dashboard', DashboardMhs::class)->name('dashboard.mahasiswa');
+// Route::get('/mahasiswa/dashboard', DashboardMhs::class)->name('dashboard.mahasiswa');
